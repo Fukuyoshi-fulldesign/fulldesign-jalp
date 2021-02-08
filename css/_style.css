@@ -1,0 +1,252 @@
+.header {
+  width: 100%;
+  height: 540px;
+  background-image: url("../img/pic_top.png");
+  background-size: cover;
+  position: relative;
+  text-align: center;
+}
+.header-title__txt {
+  display: inline-block;
+  color: #fff;
+  font-size: 7rem;
+  margin-top: 160px;
+  padding: 40px 140px;
+  background-color: rgba(62, 58, 57, 0.3);
+}
+
+.areas-sec {
+  margin-top: 100px;
+}
+
+.areas-area {
+  display: flex;
+  justify-content: space-between;
+}
+.areas-area-container {
+  text-align: center;
+  box-sizing: border-box;
+}
+.areas-area-container__area-name {
+  font-size: 3em;
+  letter-spacing: 2px;
+}
+.areas-area-container div {
+  width: 240px;
+  height: 140px;
+  margin-top: 10px;
+}
+.areas-area-container__organization {
+  display: block;
+  margin: 8px 0;
+  font-size: 0.9rem;
+  text-decoration: none;
+}
+.areas-area-container-rengokai {
+  position: relative;
+  top: -40px;
+}
+
+#rengokai {
+  display: block;
+  width: 380px;
+  height: 110px;
+  margin-top: 10px;
+}
+
+.nishi-name {
+  color: #a7deff;
+}
+
+.nishi {
+  background-color: #a7deff;
+  box-sizing: border-box;
+  padding-top: 26px;
+}
+
+.minami-name {
+  color: #e88d00;
+}
+
+.minami {
+  background-color: #f1cc80;
+  box-sizing: border-box;
+  padding-top: 26px;
+}
+
+.kita-name {
+  color: #ff8da6;
+}
+
+.kita {
+  background-color: #ffd1db;
+  box-sizing: border-box;
+  padding-top: 11px;
+}
+
+.kunai-name {
+  color: #008f44;
+}
+
+.kunai {
+  background-color: #bdd786;
+  box-sizing: border-box;
+  padding-top: 11px;
+}
+
+.rengokai-name {
+  color: #870780;
+}
+
+.rengokai {
+  background-color: #d1a4cc;
+  box-sizing: border-box;
+  padding-top: 22px;
+}
+
+.areas__map {
+  margin-top: 40px;
+}
+
+.area-sec {
+  margin: -40px 0 80px 0;
+}
+
+.area {
+  margin-top: 65px;
+}
+.area__name {
+  margin-top: 70px;
+  padding: 14px 0;
+  text-align: center;
+  font-size: 2rem;
+}
+.area__name-icon {
+  position: relative;
+  top: 3px;
+  padding: 0 16px;
+}
+.area__name-nishi {
+  color: #54acdb;
+}
+.area__name-minami {
+  color: #e88d00;
+}
+.area__name-kita {
+  color: #ff8da6;
+}
+.area__name-kunai {
+  color: #008f44;
+}
+.area__name-rengokai {
+  color: #870780;
+}
+.area-contents {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 40px;
+}
+.area-contents-organization {
+  padding: 40px 40px 28px 40px;
+  text-align: center;
+}
+.area-contents-organization p img {
+  width: 100%;
+}
+.area-contents-organization-nishi {
+  background-color: #a7deff;
+}
+.area-contents-organization-minami {
+  background-color: #f1cc80;
+}
+.area-contents-organization-kita {
+  background-color: #ffd1db;
+}
+.area-contents-organization-kunai {
+  background-color: #bdd786;
+}
+.area-contents-organization-rengokai {
+  background-color: #d1a4cc;
+}
+.area-contents-organization__name {
+  color: #595757;
+  margin-top: 24px;
+  font-size: 3em;
+}
+.area-contents-organization__address {
+  color: #595757;
+  display: block;
+  font-size: 1.8em;
+  margin: 12px 0 4px 0;
+}
+.area-contents-organization__button {
+  display: block;
+  font-size: 2.2em;
+  color: #fff;
+  border-radius: 15px;
+  padding: 16px 40px;
+  margin-top: 20px;
+}
+.area-contents-organization__button-kunai-tokyochuo {
+  margin-top: 0;
+}
+.area-contents-organization__button-nishi {
+  background-color: #54acdb;
+}
+.area-contents-organization__button-minami {
+  background-color: #e88d00;
+}
+.area-contents-organization__button-kita {
+  background-color: #ff8da6;
+}
+.area-contents-organization__button-kita {
+  background-color: #ff8da6;
+}
+.area-contents-organization__button-kunai {
+  background-color: #008f44;
+}
+.area-contents-organization__button-rengokai {
+  background-color: #870780;
+}
+.area-contents-organization__address-tokyomidori, .area-contents-organization__address-tokyomusashi {
+  font-size: 1.5em;
+}
+.area-contents-organization__rengokai {
+  font-size: 2.4em;
+}
+
+#area__name-nishi {
+  border-top: solid 2px #54acdb;
+  border-bottom: solid 2px #54acdb;
+}
+
+#area__name-minami {
+  border-top: solid 2px #e88d00;
+  border-bottom: solid 2px #e88d00;
+}
+
+#area__name-kita {
+  border-top: solid 2px #ff8da6;
+  border-bottom: solid 2px #ff8da6;
+}
+
+#area__name-kunai {
+  border-top: solid 2px #008f44;
+  border-bottom: solid 2px #008f44;
+}
+
+#area__name-rengokai {
+  border-top: solid 2px #870780;
+  border-bottom: solid 2px #870780;
+}
+
+.footer {
+  height: 48px;
+  background-color: #84b81f;
+  text-align: center;
+}
+.footer__copyright {
+  display: inline-block;
+  margin-top: 24px;
+  color: #fff;
+}

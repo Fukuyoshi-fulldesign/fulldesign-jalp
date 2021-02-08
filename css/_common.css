@@ -1,0 +1,24 @@
+@charset "UTF-8";
+main {
+  display: block;
+}
+
+body {
+  font-size: 62.5%;
+  font-weight: bold;
+  font-family: "游ゴシック", sans-serif;
+  background-image: url("../img/pic_bg.png");
+  background-size: cover;
+  position: relative;
+  letter-spacing: 2px;
+}
+
+.wrap {
+  width: 1000px;
+  margin: 0 auto;
+}
+
+a {
+  text-decoration: none;
+  color: #595757;
+}
