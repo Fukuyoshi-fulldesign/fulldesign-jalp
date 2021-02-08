@@ -1,0 +1,235 @@
+.header {
+    width: 100%;
+    height: 540px;
+    background-image: url("../img/pic_top.png");
+    background-size: cover;
+    position: relative;
+    text-align: center;
+    &-title__txt {
+        display: inline-block;
+        color: #fff;
+        font-size: 7rem;
+        margin-top: 160px;
+        padding: 40px 140px;
+        background-color: rgba(62, 58, 57, .3);
+    }
+}
+
+.areas-sec {
+    margin-top: 100px;
+}
+.areas-area {
+    display: flex;
+    justify-content: space-between;
+    &-container {
+        text-align: center;
+        box-sizing: border-box;
+        &__area-name {
+            font-size: 3em;
+            letter-spacing: 2px;
+        }
+        & div {
+            width: 240px;
+            height: 140px;
+            margin-top: 10px;
+        }
+        &__organization {
+            display: block;
+            margin: 8px 0;
+            font-size: .9rem;
+            text-decoration: none;
+        }
+        &-rengokai {
+            position: relative;
+            top: -40px;
+        }
+    }
+}
+#rengokai {
+    display: block;
+    width: 380px;
+    height: 110px;
+    margin-top: 10px;
+}
+.nishi-name {
+    color: #a7deff;
+}
+.nishi {
+    background-color: #a7deff;
+    box-sizing: border-box;
+    padding-top: 26px;
+}
+.minami-name {
+    color: #e88d00;
+}
+.minami {
+    background-color: #f1cc80;
+    box-sizing: border-box;
+    padding-top: 26px;
+}
+.kita-name {
+    color: #ff8da6;
+}
+.kita {
+    background-color: #ffd1db;
+    box-sizing: border-box;
+    padding-top: 11px;
+}
+.kunai-name {
+    color: #008f44;
+}
+.kunai {
+    background-color: #bdd786;
+    box-sizing: border-box;
+    padding-top: 11px;
+}
+.rengokai-name {
+    color: #870780;
+}
+.rengokai {
+    background-color: #d1a4cc;
+    box-sizing: border-box;
+    padding-top: 22px;
+}
+.areas__map {
+    margin-top: 40px;
+}
+
+.area-sec {
+    margin: -40px 0 80px 0;
+}
+.area {
+    margin-top: 65px;
+    &__name {
+        margin-top: 70px;
+        padding: 14px 0;
+        text-align: center;
+        font-size: 2rem;
+        &-icon {
+            position: relative;
+            top: 3px;
+            padding: 0 16px;
+        }
+
+        &-nishi {
+            color: #54acdb;
+        }
+        &-minami {
+            color: #e88d00;
+        }
+        &-kita {
+            color: #ff8da6;
+        }
+        &-kunai {
+            color: #008f44;
+        }
+        &-rengokai {
+            color: #870780;
+        }
+
+    }
+    &-contents {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 40px;
+        &-organization {
+            padding: 40px 40px 28px 40px;
+            text-align: center;
+            & p img {
+                width: 100%;
+            }
+        }
+        &-organization-nishi {
+            background-color: #a7deff;
+        }
+        &-organization-minami {
+            background-color: #f1cc80;
+        }
+        &-organization-kita {
+            background-color: #ffd1db;
+        }
+        &-organization-kunai {
+            background-color: #bdd786;
+        }
+        &-organization-rengokai {
+            background-color: #d1a4cc;
+        }
+        &-organization__name {
+            color: #595757;
+            margin-top: 24px;
+            font-size: 3em;
+        }
+        &-organization__address {
+            color: #595757;
+            display: block;
+            font-size: 1.8em;
+            margin: 12px 0 4px 0;
+        }
+        &-organization__button {
+            display: block;
+            font-size: 2.2em;
+            color: #fff;
+            border-radius: 15px;
+            padding: 16px 40px;
+            margin-top: 20px;
+        }
+        &-organization__button-kunai-tokyochuo {
+            margin-top: 0;
+        }
+        &-organization__button-nishi {
+            background-color: #54acdb;
+        }
+        &-organization__button-minami {
+            background-color: #e88d00;
+        }
+        &-organization__button-kita {
+            background-color: #ff8da6;
+        }
+        &-organization__button-kita {
+            background-color: #ff8da6;
+        }
+        &-organization__button-kunai {
+            background-color: #008f44;
+        }
+        &-organization__button-rengokai {
+            background-color: #870780;
+        }
+    }
+    &-contents-organization__address-tokyomidori, &-contents-organization__address-tokyomusashi {
+        font-size: 1.5em;
+    }
+    &-contents-organization__rengokai {
+        font-size: 2.4em;
+    }
+}
+#area__name-nishi {
+    border-top: solid 2px #54acdb;
+    border-bottom: solid 2px #54acdb;
+}
+#area__name-minami {
+    border-top: solid 2px #e88d00;
+    border-bottom: solid 2px #e88d00;
+}
+#area__name-kita {
+    border-top: solid 2px #ff8da6;
+    border-bottom: solid 2px #ff8da6;
+}
+#area__name-kunai {
+    border-top: solid 2px #008f44;
+    border-bottom: solid 2px #008f44;
+}
+#area__name-rengokai {
+    border-top: solid 2px #870780;
+    border-bottom: solid 2px #870780;
+}
+
+.footer {
+    height: 48px;
+    background-color: #84b81f;
+    text-align: center;
+    &__copyright {
+        display: inline-block;
+        margin-top: 24px;
+        color: #fff;
+    }
+}
